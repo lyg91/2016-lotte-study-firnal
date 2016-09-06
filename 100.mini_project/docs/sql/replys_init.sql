@@ -1,0 +1,11 @@
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'lyg91', 1231, '2번이 나은듯', '16/08/15 21:34:55', 2);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'user01', 1121, '1번이 나은듯?', '16/08/20 22:30:45', 4);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'kim0112', 3331, '1번 추천합니다', '16/08/22 21:34:55', 3);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'park0112', 1131, '2번 추천해요', '16/07/29 09:14:45', 4);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'oh0328', 2232, '1번이 나은듯', '16/08/22 21:30:16', 3);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'kyun0102', 4234, '1번추천', '16/08/17 23:14:35', 7);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'choi0328', 1551, '나는 1번', '16/08/18 18:24:45', 8);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'oh0328', 1872, '나는 2번', '16/08/19 16:34:15', 7);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'lyg91', 8972, '1번 추천합니다', '16/08/14 19:34:55', 9);
+INSERT INTO replys VALUES(seq_replys_number.nextval, 'lyg91', 7862, '2번 추천요', '16/08/08 20:34:55', 6);
+commit;

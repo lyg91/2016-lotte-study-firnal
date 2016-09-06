@@ -1,0 +1,12 @@
+INSERT INTO boards VALUES(seq_boards_number.nextval, '공지사항입니다.', 0392, '자유롭게 글을 올려주세요.', 'admin', '16/07/25 13:03:38', null, null, null, 0, 1, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, 'JAVA vs C언어', 1234, '골라주세요.', 'lyg91', '16/08/25 11:05:18', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '책 좀 골라줘요', 1234, '어디가 좋음?', 'user01', '16/08/10 20:03:18', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '사과 vs 오렌지', 2812, '뭐가 맛있음?', 'kyun0102', '16/08/15 18:27:30', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '축구 vs 야구', 3891, '골라주세요.', 'lyg91', '16/08/20 19:15:28', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, 'lol vs 오버워치', 3121, '뭐가 재밌음?', 'choi0328', '16/08/12 15:18:55', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '짜장면 vs 짬뽕 vs 돈까스', 1121, '뭐가 맛있음?', 'park0112', '16/08/12 23:49:48', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '한국 vs 일본 vs 중국', 7721, '어디가 좋음?', 'choi0328', '16/08/12 22:33:38', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, 'FC서울 vs 수원', 9821, '누가 강팀?', 'kim0112', '16/08/12 19:43:22', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '노트북 좀 골라줘요', 1221, '뭐가 좋음?', 'park0112', '16/08/12 16:53:43', null, null, null, 0, 0, 0, 0, 0);
+INSERT INTO boards VALUES(seq_boards_number.nextval, '신발 좀 골라주세요', 0921, '뭐가 좋아보임?', 'choi0328', '16/08/12 18:45:38', null, null, null, 0, 0, 0, 0, 0);
+commit;

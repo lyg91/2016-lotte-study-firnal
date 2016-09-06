@@ -1,0 +1,11 @@
+INSERT INTO users VALUES('lyg91','a0309','이영걸','010-3472-3606','lkl0309@naver.com','A','2016/08/25',1000,'M',1991,'0309');
+INSERT INTO users VALUES('user01','pass01','홍길동','010-312-3606','hong1020@naver.com','G','2016/07/14',500,'M',1988,'0118');
+INSERT INTO users VALUES('kim0112','pass02','김유신','010-1272-1606','kim0617@naver.com','G','2016/06/08',300,'M',1978,'0218');
+INSERT INTO users VALUES('park0112','pass03','박찬호','010-3172-3506','park0217@naver.com','G','2016/05/18',100,'M',1998,'0318');
+INSERT INTO users VALUES('kim0718','pass04','김연아','010-3612-9276','kim0217@naver.com','G','2016/03/18',100,'F',1960,'0518');
+INSERT INTO users VALUES('oh0328','pass05','오승환','010-3472-9626','oh0328@google.co.kr','G','2016/04/18',100,'M',1980,'0918');
+INSERT INTO users VALUES('choi0328','pass06','최승주','010-3182-2221','choid0328@google.co.kr','G','2016/09/18',200,'F',1989,'0918');
+INSERT INTO users VALUES('test01','pass07','테스터','010-3927-1143','test0103@hanmail.co.kr','G','2015/07/19',300,'F',2001,'0709');
+INSERT INTO users VALUES('admin','1234','관리자','010-3827-3826','sinsa91@hanmail.co.kr','A','2015/09/19',null,'M',1991,'0309');
+INSERT INTO users VALUES('kyun0102','okay0102','최범균','010-3712-2816','kyun@naver.com','G','2015/12/25',800,'M',1999,'1115');
+commit;

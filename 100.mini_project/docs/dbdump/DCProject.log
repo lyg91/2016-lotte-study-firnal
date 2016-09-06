@@ -1,0 +1,9 @@
+
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Export done in KO16MSWIN949 character set and AL16UTF16 NCHAR character set
+
+About to export specified tables via Conventional Path ...
+. . exporting table                          USERS         10 rows exported
+. . exporting table                         BOARDS         11 rows exported
+. . exporting table                         REPLYS         10 rows exported
+Export terminated successfully without warnings.

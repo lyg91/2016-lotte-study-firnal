@@ -1,0 +1,41 @@
+##프로젝트 개발순서
+
+1. 프로젝트 주제선정
+
+2. actor분석
+   ex)관리자, 사용자
+
+3. actor별 제공기능
+   ex)관리자 : 회원 전체조회 등..
+      사용자 : 게시판 이용 등..
+      공통기능 : 로그인, 로그아웃
+
+4.요구사항
+--도메인 클래스(DTO) 추출
+--도메인 속성
+--DB 모델링
+--Service, DAO, DTO 클래스 작성
+
+5.화면 설계
+--페이지 Layout 결정
+--사이트 맵 : 기능
+--시작페이지, 우선순위, 선행처리 기능단위로 화면설계
+--등록화면, 상세조회
+
+6.일정표
+--구체적으로 상세하게 결정
+
+7.프레젝트 생성
+--폴더구조 : 
+package구조:work.model.dto
+	    work.model.dao
+	    work.model.service
+	    work.controller
+	    work.exception
+		.
+		.
+		.
+webContent구조 : css/js/images/docs(ooad(분석설계)/sql(ddl,init,dml)/api)/view(jsp)
+--context명 :  
+
+8.기본구현

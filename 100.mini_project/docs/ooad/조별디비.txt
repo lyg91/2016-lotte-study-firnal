@@ -1,0 +1,36 @@
+회원 USERS
+ U_ID                                          NOT NULL VARCHAR2(20) PK
+ U_PW                                        NOT NULL VARCHAR2(20)
+ U_NAME                                    NOT NULL VARCHAR2(20)
+ U_MOBILE                                  NOT NULL VARCHAR2(14)
+ U_EMAIL                                    NOT NULL VARCHAR2(20)
+ U_GRADE ('G' 일반, 'A' 관리자)        NOT NULL VARCHAR2(1)
+ U_ENTRY_DATE                           NOT NULL VARCHAR2(50)
+ U_MILEAGE                                NUMBER(5)  
+ U_GENDER                                NOT NULL VARCHAR2(2)   'M' 남자 , ' W' 여자 
+ U_BIRTH_YEAR	                     NOT NULL Number(4)
+ U_BIRTH_MONDAY                     NOT NULL varchar2(10)        
+
+게시판 BOARDS
+B_NUMBER                        NOT NULL NUMBER(10) PK  seq
+B_TITLE                             NOT NULL VARCHAR2(50)
+B_PASSWORD                     NOT NULL NUMBER(4)
+B_CONTENT                       NOT NULL VARCHAR2(100)
+B_AUTHOR                         NOT NULL VARCHAR2(20)
+B_DATE                              NOT NULL VARCHAR2(15)
+B_FILE1                                                   
+B_FILE2
+B_FILE3                             
+B_HIT                                NOT NULL NUMBER(100)
+B_RECOMMEND1                NOT NULL NUMBER(10) 
+B_RECOMMEND2                NOT NULL NUMBER(10)
+B_RECOMMEND3                NOT NULL NUMBER(10) 
+
+
+댓글 REPLY
+R_NUMBER                      NOT NULL NUMBER(10) PK seq
+R_AUTHOR                      NOT NULL VARCHAR(20)
+R_PASSWORD                  NUMBER(4)
+R_CONTENT                    NOT NULL VARCHAR(100) 
+R_DATE                          NOT NULL VARCHAR(15)
+B_NUMBER                     NOT NULL  NUMBER(10) FK                
